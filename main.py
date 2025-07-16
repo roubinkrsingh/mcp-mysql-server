@@ -165,4 +165,5 @@ def main():
 
 
 if __name__ == "__main__":
-    mcp.run()
+    logger.info("Starting GitHub MCP server...")
+    mcp.run(transport='sse')

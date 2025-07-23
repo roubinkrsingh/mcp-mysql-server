@@ -7,7 +7,7 @@ from mcp.server.fastmcp import FastMCP
 
 
 # Create MCP server instance
-mcp = FastMCP("mysql-server")
+mcp = FastMCP("mysql-server",port=8003)
 
 # Database connection configuration
 DB_CONFIG = {
